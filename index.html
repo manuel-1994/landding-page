@@ -4,7 +4,11 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Landing-page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Roboto:ital@0;1&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/f160db1508.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
@@ -20,7 +24,7 @@
           <div class="hero-description">
             <h1>La tecnología en la palma de tu mano</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quibusdam recusandae voluptas! Deserunt ea quidem, a beatae perspiciatis ut! Inventore fugit veniam excepturi saepe unde consectetur voluptates alias repellat odio?</p>
-            <button><a href="#">¿Deseas escribirnos?</a></button>
+            <button><a href="#form">¿Deseas escribirnos?</a></button>
           </div>
         </div>  
       </section>
@@ -28,25 +32,37 @@
         <div class="services-container content-wrapper">
             <article class="services-article">
               <div>
-                <h3>Cursos</h3>
+                <div class="services-title">
+                  <i class="fa-solid fa-video"></i>
+                  <h3>Cursos</h3>
+                </div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur amet non vero at eaque, eveniet, laboriosam quia cum explicabo autem magnam! Est assumenda et, voluptatum libero a ducimus officiis voluptatibus.</p>
               </div>
             </article>
             <article class="services-article">
               <div>
-                <h3>Ejemplos pacticos</h3>
+                <div class="services-title">
+                  <i class="fa-solid fa-keyboard"></i>
+                  <h3>Ejemplos pacticos</h3>
+                </div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur amet non vero at eaque, eveniet, laboriosam quia cum explicabo autem magnam! Est assumenda et, voluptatum libero a ducimus officiis voluptatibus.</p>
               </div>
             </article>
             <article class="services-article">
               <div>
-                <h3>Libros</h3>
+                <div class="services-title">
+                  <i class="fa-solid fa-book"></i>
+                  <h3>Libros</h3>
+                </div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur amet non vero at eaque, eveniet, laboriosam quia cum explicabo autem magnam! Est assumenda et, voluptatum libero a ducimus officiis voluptatibus.</p>
               </div>
             </article>
             <article class="services-article">
               <div>
-                <h3>Preguntas y respuestas</h3>
+                <div class="services-title">
+                  <i class="fa-solid fa-question"></i>
+                  <h3>Preguntas y respuestas</h3>
+                </div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur amet non vero at eaque, eveniet, laboriosam quia cum explicabo autem magnam! Est assumenda et, voluptatum libero a ducimus officiis voluptatibus.</p>
               </div>
             </article>
@@ -55,7 +71,7 @@
       </section>
       <section class="tecnology">
         <div class="tecnology-container content-wrapper">
-          <h2>Lo que encontraras</h2>
+          <h2>Lo que aprenderás</h2>
           <div class="tecnology-content">
             <article class="tecnology-article web">
               <div class="article-container">
@@ -80,8 +96,8 @@
           </div>
         </div>
       </section>
-      <footer class="footer content-wrapper">
-        <div class="form-container ">
+      <footer  class="footer content-wrapper">
+        <div id="form" class="form-container ">
           <h2>¿Deseas escribirnos?</h2>
           <form class="form">
               <div>
@@ -93,12 +109,20 @@
           </form>
         </div>
 
-        <div class="social networks">
+        <div class="social-networks">
             <h2>LOGO</h2>
             <p>Puedes seguirnos en nuestras redes sociales:</p>
+            <div>
+              <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
         </div>
         <hr>
-        <p>©2022 Manuel Marín.</p>
+        <div class="copyright-container">
+          <p>©2022 Manuel Marín.</p>
+        </div>
       </footer>
     </main>
   <script  src="./js/index.js"></script>
